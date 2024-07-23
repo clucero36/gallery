@@ -1,6 +1,23 @@
 import Image from 'next/image'
+import { fetchCategoryImages } from '../lib/api'
+import data from '../lib/data';
 
-export default function Images({images}) {
+export default async function Images({query}) {
+  const imageData = data.media;
+  let images = [];
+
+  if (query.length !== 0) {
+    const data = await fetchCategoryImages(query);
+
+    data.photos.map((photo) => {
+      images.push(photo);
+    })
+  }
+  else {
+    imageData.map((image) => {
+      images.push(image);
+    })
+  }
 
   const renderedImages = images.map((image, index) => {
     return (
@@ -15,7 +32,7 @@ export default function Images({images}) {
     )
   })//
   return (
-    <div className='flex flex-wrap self-center'>
+    <div className='flex flex-wrap justify-center'>
       {renderedImages}
     </div>
   )

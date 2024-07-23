@@ -29,6 +29,8 @@ export async function fetchImages() {
 }
 
 export async function fetchCategoryImages(category) {
+  await new Promise((resolve) => setTimeout(resolve, 3000));
+  
   const headers =  {
     'Content-Type': 'application/json',
     'Authorization': process.env.KEY

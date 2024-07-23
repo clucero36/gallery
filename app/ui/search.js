@@ -21,7 +21,7 @@ export default function Search() {
 
 
   return (
-    <fieldset>
+    <fieldset className='self-center m-10'>
       <label htmlFor='mountains'>
         <input
           type="radio" 
