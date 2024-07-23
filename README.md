@@ -10,4 +10,4 @@ Practice with:
 
 -URL Search Parameters
 
--API call from 
+-Streaming
