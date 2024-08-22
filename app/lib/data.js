@@ -4,51 +4,27 @@ const data = {
   per_page: 4,
   media: [
     {
-      type: 'Photo',
-      id: 239577,
-      width: 5069,
-      height: 3379,
-      url: 'https://www.pexels.com/photo/close-up-photography-of-yellow-gerbera-daisy-flower-239577/',
-      photographer: 'Brigitte Tohm',
-      photographer_url: 'https://www.pexels.com/@brigitte-tohm-36757',
-      photographer_id: 36757,
-      avg_color: '#655124',
-      src: {
-        original: 'https://images.pexels.com/photos/239577/pexels-photo-239577.jpeg',
-        large2x: 'https://images.pexels.com/photos/239577/pexels-photo-239577.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
-        large: 'https://images.pexels.com/photos/239577/pexels-photo-239577.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-        medium: 'https://images.pexels.com/photos/239577/pexels-photo-239577.jpeg?auto=compress&cs=tinysrgb&h=350',
-        small: 'https://images.pexels.com/photos/239577/pexels-photo-239577.jpeg?auto=compress&cs=tinysrgb&h=130',
-        portrait: 'https://images.pexels.com/photos/239577/pexels-photo-239577.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800',
-        landscape: 'https://images.pexels.com/photos/239577/pexels-photo-239577.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
-        tiny: 'https://images.pexels.com/photos/239577/pexels-photo-239577.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280'
+      "id": 2014422,
+      "width": 3024,
+      "height": 3024,
+      "url": "https://www.pexels.com/photo/brown-rocks-during-golden-hour-2014422/",
+      "photographer": "Joey Farina",
+      "photographer_url": "https://www.pexels.com/@joey",
+      "photographer_id": 680589,
+      "avg_color": "#978E82",
+      "src": {
+        "original": "https://images.pexels.com/photos/2014422/pexels-photo-2014422.jpeg",
+        "large2x": "https://images.pexels.com/photos/2014422/pexels-photo-2014422.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "large": "https://images.pexels.com/photos/2014422/pexels-photo-2014422.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+        "medium": "https://images.pexels.com/photos/2014422/pexels-photo-2014422.jpeg?auto=compress&cs=tinysrgb&h=350",
+        "small": "https://images.pexels.com/photos/2014422/pexels-photo-2014422.jpeg?auto=compress&cs=tinysrgb&h=130",
+        "portrait": "https://images.pexels.com/photos/2014422/pexels-photo-2014422.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+        "landscape": "https://images.pexels.com/photos/2014422/pexels-photo-2014422.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+        "tiny": "https://images.pexels.com/photos/2014422/pexels-photo-2014422.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280"
       },
-      liked: false,
-      alt: 'Close-up Photography of Yellow Gerbera Daisy Flower'
-    },
-    {
-      type: 'Photo',
-      id: 828531,
-      width: 6000,
-      height: 4000,
-      url: 'https://www.pexels.com/photo/close-up-photography-of-yellow-dahlia-flower-828531/',
-      photographer: 'photos_by_ginny',
-      photographer_url: 'https://www.pexels.com/@ginny9119',
-      photographer_id: 277406,
-      avg_color: '#DAA039',
-      src: {
-        original: 'https://images.pexels.com/photos/239577/pexels-photo-239577.jpeg',
-        large2x: 'https://images.pexels.com/photos/239577/pexels-photo-239577.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
-        large: 'https://images.pexels.com/photos/239577/pexels-photo-239577.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-        medium: 'https://images.pexels.com/photos/239577/pexels-photo-239577.jpeg?auto=compress&cs=tinysrgb&h=350',
-        small: 'https://images.pexels.com/photos/239577/pexels-photo-239577.jpeg?auto=compress&cs=tinysrgb&h=130',
-        portrait: 'https://images.pexels.com/photos/239577/pexels-photo-239577.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800',
-        landscape: 'https://images.pexels.com/photos/239577/pexels-photo-239577.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
-        tiny: 'https://images.pexels.com/photos/239577/pexels-photo-239577.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280'
-      },
-      liked: false,
-      alt: 'Close-Up Photography of Yellow Dahlia Flower'
-    },
+      "liked": false,
+      "alt": "Brown Rocks During Golden Hour"
+    },    
     {
       type: 'Photo',
       id: 1028542,
@@ -73,27 +49,48 @@ const data = {
       alt: 'Shallow Focus Photography of Yellow Flowers'
     },
     {
-      type: 'Photo',
-      id: 1037998,
-      width: 6016,
-      height: 4016,
-      url: 'https://www.pexels.com/photo/yellow-daisies-laid-on-yellow-surface-1037998/',
-      photographer: 'Moose Photos',
-      photographer_url: 'https://www.pexels.com/@moose-photos-170195',
-      photographer_id: 170195,
-      avg_color: '#F0CF79',
+      id: 675764,
+      width: 4096,
+      height: 2726,
+      url: 'https://www.pexels.com/photo/brown-canoe-in-the-body-of-water-near-mountain-675764/',
+      photographer: 'Tobi',
+      photographer_url: 'https://www.pexels.com/@pripicart',
+      photographer_id: 153731,
+      avg_color: '#605755',
       src: {
-        original: 'https://images.pexels.com/photos/239577/pexels-photo-239577.jpeg',
-        large2x: 'https://images.pexels.com/photos/239577/pexels-photo-239577.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
-        large: 'https://images.pexels.com/photos/239577/pexels-photo-239577.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-        medium: 'https://images.pexels.com/photos/239577/pexels-photo-239577.jpeg?auto=compress&cs=tinysrgb&h=350',
-        small: 'https://images.pexels.com/photos/239577/pexels-photo-239577.jpeg?auto=compress&cs=tinysrgb&h=130',
-        portrait: 'https://images.pexels.com/photos/239577/pexels-photo-239577.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800',
-        landscape: 'https://images.pexels.com/photos/239577/pexels-photo-239577.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
-        tiny: 'https://images.pexels.com/photos/239577/pexels-photo-239577.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280'
+        original: 'https://images.pexels.com/photos/675764/pexels-photo-675764.jpeg',
+        large2x: 'https://images.pexels.com/photos/675764/pexels-photo-675764.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+        large: 'https://images.pexels.com/photos/675764/pexels-photo-675764.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+        medium: 'https://images.pexels.com/photos/675764/pexels-photo-675764.jpeg?auto=compress&cs=tinysrgb&h=350',
+        small: 'https://images.pexels.com/photos/675764/pexels-photo-675764.jpeg?auto=compress&cs=tinysrgb&h=130',
+        portrait: 'https://images.pexels.com/photos/675764/pexels-photo-675764.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800',
+        landscape: 'https://images.pexels.com/photos/675764/pexels-photo-675764.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
+        tiny: 'https://images.pexels.com/photos/675764/pexels-photo-675764.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280'
       },
       liked: false,
-      alt: 'Yellow Daisies Laid on Yellow Surface'
+      alt: 'Brown Canoe in the Body of Water Near Mountain'
+    },
+    {
+      id: 931018,
+      width: 3000,
+      height: 4000,
+      url: 'https://www.pexels.com/photo/body-of-water-near-green-mountain-931018/',
+      photographer: 'Oliver Sjöström',
+      photographer_url: 'https://www.pexels.com/@ollivves',
+      photographer_id: 333270,
+      avg_color: '#2C5A53',
+      src: {
+        original: 'https://images.pexels.com/photos/931018/pexels-photo-931018.jpeg',
+        large2x: 'https://images.pexels.com/photos/931018/pexels-photo-931018.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+        large: 'https://images.pexels.com/photos/931018/pexels-photo-931018.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+        medium: 'https://images.pexels.com/photos/931018/pexels-photo-931018.jpeg?auto=compress&cs=tinysrgb&h=350',
+        small: 'https://images.pexels.com/photos/931018/pexels-photo-931018.jpeg?auto=compress&cs=tinysrgb&h=130',
+        portrait: 'https://images.pexels.com/photos/931018/pexels-photo-931018.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800',
+        landscape: 'https://images.pexels.com/photos/931018/pexels-photo-931018.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
+        tiny: 'https://images.pexels.com/photos/931018/pexels-photo-931018.jpeg?auto=compress&cs=tinysrgb&dpr=1&fit=crop&h=200&w=280'
+      },
+      liked: false,
+      alt: 'Body of Water Near Green Mountain'
     }
   ],
   total_results: 106,

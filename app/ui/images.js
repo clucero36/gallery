@@ -26,8 +26,8 @@ export default async function Images({query}) {
           return (
             <Image
               src={image.src.medium}
-              width={800}
-              height={1200}
+              width={500}
+              height={500}
               alt={image.alt}
               key={index}
               className='w-auto h-auto'
