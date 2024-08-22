@@ -4,8 +4,29 @@ const shimmer =
 
 export function ImageSkeleton() {
   return (
-    <div className={`${shimmer} flex flex-wrap justify-center relative overflow-hidden rounded-xl bg-gray-100 p-2 shadow-sm`}>
+    <div className={`${shimmer} relative overflow-hidden rounded-xl p-2 w-80 h-40 shadow-sm`}>
 
+    </div>
+  )
+}
+
+export function ImagesSkeleton() {
+  return (
+    <div className='flex flex-wrap w-3/5 justify-center mx-auto'>
+      <ImageSkeleton />
+      <ImageSkeleton />
+      <ImageSkeleton />
+      <ImageSkeleton />
+      <ImageSkeleton />
+      <ImageSkeleton />
+      <ImageSkeleton />
+      <ImageSkeleton />
+      <ImageSkeleton />
+      <ImageSkeleton />
+      <ImageSkeleton />
+      <ImageSkeleton />
+      <ImageSkeleton />
+      <ImageSkeleton />
     </div>
   )
 }
