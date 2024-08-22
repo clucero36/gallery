@@ -25,8 +25,6 @@ export function ImagesSkeleton() {
       <ImageSkeleton />
       <ImageSkeleton />
       <ImageSkeleton />
-      <ImageSkeleton />
-      <ImageSkeleton />
     </div>
   )
 }
