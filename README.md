@@ -11,3 +11,7 @@ Practice with:
 -URL Search Parameters
 
 -Streaming
+
+-Testing with Vitest
+
+-CI with Github Actions
