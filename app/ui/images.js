@@ -1,23 +1,9 @@
 import Image from 'next/image'
-import { fetchCategoryImages } from '../lib/api'
-import data from '../lib/data';
+import { ArrayFiller } from '../lib/util';
 
 export default async function Images({query}) {
-  const imageData = data.media;
-  let images = [];
 
-  if (query.length !== 0) {
-    const data = await fetchCategoryImages(query);
-
-    data.photos.map((photo) => {
-      images.push(photo);
-    })
-  }
-  else {
-    imageData.map((image) => {
-      images.push(image);
-    })
-  }
+  const images = await ArrayFiller(query);
 
   return (
     <div className='flex flex-wrap justify-center'>
